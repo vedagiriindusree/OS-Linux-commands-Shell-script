@@ -980,7 +980,7 @@ echo "Hello $name, welcome to my program. "
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
-## OUTPU
+## OUTPUT:
  cat exread1.sh
 ```bash
 #!/bin/bash
