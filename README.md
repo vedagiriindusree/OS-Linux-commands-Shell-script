@@ -867,6 +867,8 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/b008d022-f4fd-4051-814c-391a983cb663)
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -900,6 +902,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUt
+![image](https://github.com/user-attachments/assets/15dc1e1f-aa35-469d-b7f2-6284400b1124)
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -912,6 +916,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/854fc7fd-3952-49c4-977b-ccbb4ffa6409)
+
 cat fornested1.sh 
 ```bash
 #!/bin/bash
@@ -929,6 +935,8 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ ![image](https://github.com/user-attachments/assets/50a9e2af-ff53-4347-8d1d-822568f3542b)
+
 cat forbreak.sh 
 ```bash
 #!/bin/bash
@@ -944,6 +952,8 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/37da2fef-2e1a-4403-aba1-d2dca7e70c55)
+
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
@@ -968,8 +978,10 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/7ed05ce8-486b-47d7-a3f3-44f97e27c284)
+
 cat exread.sh 
-```bash
+```
 #!/bin/bash
 # testing the read command
 echo -n "Enter your name: "
@@ -981,20 +993,11 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT:
- cat exread1.sh
-```bash
-#!/bin/bash
-# testing the read command
-read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
-``` 
-$ chmod 755 exread1.sh 
+![image](https://github.com/user-attachments/assets/245fb0a5-6c00-4b38-94bd-84ce35268b34)
 
-## OUTPUT
-$ ./exread1.sh 
- 
 cat funcex.sh
-```bash
+
+```
 #!/bin/bash
 # trying to access script parameters inside a function
 function func {
@@ -1009,14 +1012,15 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
- ./funcex.sh 
+![image](https://github.com/user-attachments/assets/b233261a-47c7-400e-b283-77d208d24331)
 
- 
- ./funcex.sh 1 2
+./funcex.sh 1 2
 
- 
+## OUTPUT
+ ![image](https://github.com/user-attachments/assets/65ed5ac9-8a58-41f5-971a-e789c7b0ea96)
+
 cat argshift.sh
-```bash
+```
 #!/bin/bash 
  while (( "$#" )); do 
   echo $1 
@@ -1026,6 +1030,8 @@ done
 $ chmod 777 argshift.sh
 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/23e3730d-9c19-4239-b68f-af7fad60bdc7)
+
 $ ./argshift.sh 1 2 3
  
  cat argshift1.sh
@@ -1043,10 +1049,12 @@ done
 ```
 $ chmod 777 argshift.sh
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/e1e4b0ab-f0a1-4414-b856-1886e2fd7b64)
+
 $ ./argshift.sh 1 2 3
  
 cat argshift.sh
-```bash
+```
 #!/bin/bash 
 set -x 
 while (( "$#" )); do 
@@ -1055,10 +1063,11 @@ while (( "$#" )); do
 done
 set +x
 ```
+./argshift.sh 1 2 3
+
 ## OUTPUT
- ./argshift.sh 1 2 3
- 
- 
+![image](https://github.com/user-attachments/assets/35dc02e8-b51c-4cc8-b0ee-b2cb26326fab)
+
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1088,7 +1097,8 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
- 
+ ![image](https://github.com/user-attachments/assets/7fa999a1-40f3-434c-b5dc-93282812cb40)
+
 cat > palindrome.sh
 ```bash
 #num=545
@@ -1115,6 +1125,7 @@ else
 fi
 ```
 ## OUTPUT
-Enter the number 121 Number is palindrome Enter the number 69 Number is NOT palindrome.
+![image](https://github.com/user-attachments/assets/f5fa90ad-dfb1-453d-9724-38b6f5eec17c)
+
 # RESULT:
 The Commands are executed successfully.
